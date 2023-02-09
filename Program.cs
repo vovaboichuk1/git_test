@@ -13,7 +13,7 @@ class Student
     {
        Console.WriteLine($"Name: {name} Lastname: {lastname} Age: {age} Kurs: {kurs}");
     }
-    public void PrintAge(age)
+    public void PrintAge()
     {
         Console.WriteLine($"Age: {age}");
     }
@@ -24,6 +24,6 @@ class Program
     {
         Student student  = new Student();
         student.Print();
-        student.PrintAge(age);
+        student.PrintAge();
     }
 }
