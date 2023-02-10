@@ -25,5 +25,6 @@ class Program
         Student student  = new Student();
         student.Print();
         student.PrintAge();
+        student.PrintAge();
     }
 }
